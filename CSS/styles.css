@@ -1,0 +1,302 @@
+/*
+1.Posicionamiento 
+2.Modelo de caja(Ej: Medidas del box model, Margin, Padding, Etc.)
+3.Tipografia
+4.Visuales
+5.Otros
+*/
+@media screen and (min-width: 320px) {
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      /* font-size: 62.5%; */
+    }
+  
+    ::-webkit-scrollbar {
+      width: 10px;
+      background-color: transparent;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #bdbdbd;
+    }
+
+    .main{
+        padding: 10px;
+    }
+
+    .presentation{
+        margin-top: 25px;
+    }
+
+    .presentation-title{
+        margin-bottom: 15px;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .presentation-img{
+        margin: 10px;
+        width: 20px;
+    }
+
+    .presentation-text{
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 500;
+        color: #4F4F4F;
+    }
+
+    .card-menu{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .icon-logo{
+        display: flex;
+        margin: 15px 0;
+    }
+
+    .icon-logo__utensils{
+        margin: 5px;
+        width: 25px;
+    }
+
+    .icon-logo__img{
+        margin: 5px;
+        width: 15px;
+    }
+
+    .icon-logo__title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8rem;
+        font-weight: 700;
+        color: #bdbdbd;
+    }
+
+    .icon-logo__total{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        color: #333333;
+    }
+
+    .icon-time{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px 0;
+    }
+
+    .ingredients{
+        margin: 30px 0;
+    }
+
+    .ingredients-title{
+        font-family: 'Playfair Display', serif;
+        font-style: 700;
+        font-size: 1.8rem;
+        color: #333333;
+    }
+
+    .ingredients-subtitle{        
+        margin: 30px 0;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 1.6rem;
+        color: #333333;
+    }
+
+    .ingredients-list{
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .ingredients-list__bold{
+        font-weight: 700;
+    }
+
+    .ingredients-list__italic{
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .instructions-title{
+        margin: 30px 0;
+        font-family: 'Playfair Display', serif;
+        font-style: 700;
+        font-size: 1.8rem;
+        color: #333333;
+    }
+
+    .instructions-number{
+        padding: 5px 15px 8px 15px;
+        margin: 5px;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: white;
+        background-color: #F2994A;
+        border-radius: 10px;
+    }
+
+    .instructions-item{
+        display: -webkit-inline-box;
+        margin: 20px 0;
+        width: 80%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .instructions-item__bold{
+        font-weight: 700;
+    }
+
+    .instructions-source{
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: .8rem;
+        color: #bdbdbd;
+    }
+
+    .instructions-link{
+        color: #bdbdbd;
+    }
+
+    .footer {
+        margin-top: 50px;
+        padding: 10px;
+        text-align: center;
+      }
+    
+      .footer-text {
+        color: #bdbdbd;
+      }
+    
+      footer span {
+        color: #bdbdbd;
+      }
+    
+      .footer-link {
+        color: #bdbdbd;
+      }
+    
+      .footer-link:nth-child(2) {
+        text-decoration: none;
+      }
+}
+
+@media screen and (min-width: 768px) {
+    .main{
+        padding: 30px;
+    }
+
+    .presentation-title{
+        font-size: 4.8rem;
+    }
+
+    .presentation-text{
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    .presentation-img{
+        width: 50px;
+    }
+
+    .card-icon{
+        padding: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 70%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+
+    .icon-time{
+        display: block;
+    }
+
+    .icon-logo{
+        margin: 25px 0;
+    }
+
+    .ingredients{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main{
+        padding: 100px;
+    }
+
+    .icon-logo__title{
+        font-size: 1rem;
+    }
+
+    .icon-logo__total{
+        font-size: 1.4rem;
+    }
+
+    .icon-logo__utensils {
+        width: 35px;
+    }
+
+    .icon-logo__img{
+        margin: 5px;
+        width: 35px;
+    }
+
+    .card-icon{
+        left: 75%;
+    }
+
+    .ingredients-title{
+        font-size: 2.4rem;
+    }
+
+    .ingredients-subtitle{
+        font-size: 1.8rem;
+    }
+
+    .ingredients-list{
+        font-size: 1.6rem;
+    }
+
+    input[type="checkbox"]{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .instructions-item{
+        font-size: 1.6rem;
+    }
+
+    .instructions-source{
+        margin-top: 25px;
+        font-size: 1.6rem;
+    }
+
+    .instructions-source>br{
+        display: none;
+    }
+
+    .instructions-link{
+        font-size: 1.6rem;
+    }
+
+    .footer{
+        font-size: 1.4rem;
+    }
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
