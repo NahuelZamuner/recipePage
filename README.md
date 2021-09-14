@@ -11,8 +11,8 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 <h2>Overview</h2>
 Create a recipe page following the given design. You can use your own recipe and remember to put the source. The page should be responsive
 
-![ScreenShoot Mobile Version](./CSS/assets/screenshoot1.png)
-![ScreenShoot Mobile Version](./CSS/assets/screenshoot.png)
+![ScreenShoot Mobile Version](./CSS/assets/screenshot1.png)
+![ScreenShoot Mobile Version](./CSS/assets/screenshot.png)
 
 <h2>Built with:</h2>
 
