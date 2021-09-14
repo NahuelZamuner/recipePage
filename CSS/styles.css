@@ -212,7 +212,7 @@
     }
 
     .card-icon{
-        padding: 30px;
+        padding: 40px;
         width: fit-content;
         position: absolute;
         left: 70%;
@@ -230,6 +230,14 @@
 
     .ingredients{
         width: 70%;
+    }
+
+    .instructions-source{
+        margin-top: 25px;
+    }
+
+    .instructions-source>br{
+        display: none;
     }
 }
 
